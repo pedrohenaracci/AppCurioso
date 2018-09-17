@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="curiosoapp.curioso.com.appcurioso.LoginActivity">
+
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="65dp"
+        android:src="@drawable/curisoso_logo"
+        android:layout_width="280dp"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnFacebookLogin"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/facebook_icon" />
+
+        <Button
+            android:id="@+id/googleplus"
+            android:layout_marginLeft="15dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/googleplus_icon" />
+
+    </LinearLayout>
+
+</LinearLayout>

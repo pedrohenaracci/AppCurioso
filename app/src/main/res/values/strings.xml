@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppCurioso</string>
+    <string name="facebook_app_id">918585368334582</string>
+    <string name="fb_login_protocol_scheme">fb918585368334582</string>
+</resources>
